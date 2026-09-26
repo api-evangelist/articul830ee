@@ -1,0 +1,76 @@
+generated: '2026-09-26'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 5
+  own: 5
+  other_domain: 0
+  platform: 0
+  roles:
+  - api
+  - identity
+  - other
+  - status
+  - website
+hosts:
+- host: api.articul8.ai
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: articul8.ai
+  role: api
+  relation: own
+- host: app.articul8.ai
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: articul8.ai
+  role: other
+  relation: own
+- host: auth.articul8.ai
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - SignUp
+  serves: []
+  registrable_domain: articul8.ai
+  role: identity
+  relation: own
+- host: status.articul8.ai
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - StatusPage
+  serves: []
+  registrable_domain: articul8.ai
+  role: status
+  relation: own
+- host: www.articul8.ai
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  types:
+  - PrivacyPolicy
+  - Newsroom
+  - Blog
+  - Website
+  serves: []
+  registrable_domain: articul8.ai
+  role: website
+  relation: own

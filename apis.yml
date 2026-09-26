@@ -1,23 +1,73 @@
 aid: articul830ee
+
 name: Articul830ee
-description: 'Articul830ee is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://assets.articul8.ai/Techstack_Aug_2125_1_191cc1f8d9.png
+
+description: 'Articul830ee (operating as Articul8) provides a domain‑specific Generative AI platform purpose‑built for enterprise data and mission‑critical applications. The platform offers autonomous agents, model orchestration, and traceable outcomes, targeting industries such as semiconductor design, supply‑chain management, and engineering standards. It emphasizes observability, auditability, and personalized AI solutions for complex enterprise missions.'
+
 url: https://raw.githubusercontent.com/api-evangelist/articul830ee/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- AI
+- GenerativeAI
+- Enterprise
+- Platform
+- DomainSpecific
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Vendors
+  url: vendors/articul830ee-vendors.yml
+- type: Hosts
+  url: hosts/articul830ee-hosts.yml
+- type: StatusPage
+  url: https://status.articul8.ai/
+- type: SignUp
+  url: https://auth.articul8.ai/signup?redirect_uri=https%3A%2F%2Fapi-docs.articul8.ai%2Fparseauth&response_type=code&client_id=6deln67aomph0q5e3j460jg8e&state=eyJub25jZSI6IjE3OTA0MTAxOTJUNndTdkNlX0huUkdneF93aCIsInJlcXVlc3RlZFVyaSI6Ii8ifQ&scope=phone%20email%20profile%20openid%20aws.cognito.signin.user.admin&code_challenge_method=S256&code_challenge=NQAl3xAFwQzhoGIZ8JtPi2fwEFE718ipYZU98wMEOeU
+- type: PrivacyPolicy
+  url: https://www.articul8.ai/privacy
+- type: Newsroom
+  url: https://www.articul8.ai/news
+- type: Blog
+  url: https://www.articul8.ai/blog
+- type: DomainSecurity
+  url: security/articul830ee-domain-security.yml
 - type: Website
-  url: https://equityzen.com/company/articul830ee
+  url: https://www.articul8.ai
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: The provider's API documentation pages return HTML shells and no machine‑readable OpenAPI spec was found.
+  evidence:
+    - url: https://api.articul8.ai/openapi.json
+      status: 404
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
