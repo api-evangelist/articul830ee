@@ -64,5 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Articul830ee is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/articul830ee
+Articul830ee (operating as Articul8) provides a domain‑specific Generative AI platform purpose‑built for enterprise data and mission‑critical applications. The platform offers autonomous agents, model orchestration, and traceable outcomes, targeting industries such as semiconductor design, supply‑chain management, and engineering standards. It emphasizes observability, auditability, and personalized AI solutions for complex enterprise missions.
+
+**Areas:** Company · Artificial Intelligence · Generative AI · Enterprise · Platform · DomainSpecific
+
+## Articul830ee on APIs.io
+
+Everything profiled for Articul830ee is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/articul830ee/](https://apis.io/providers/articul830ee/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Articul830Ee Domain Security](https://apis.io/security/articul830ee/articul830ee-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.articul8.ai)
+- [Sign up](https://auth.articul8.ai/signup?redirect_uri=https%3A%2F%2Fapi-docs.articul8.ai%2Fparseauth&response_type=code&client_id=6deln67aomph0q5e3j460jg8e&state=eyJub25jZSI6IjE3OTA0MTAxOTJUNndTdkNlX0huUkdneF93aCIsInJlcXVlc3RlZFVyaSI6Ii8ifQ&scope=phone%20email%20profile%20openid%20aws.cognito.signin.user.admin&code_challenge_method=S256&code_challenge=NQAl3xAFwQzhoGIZ8JtPi2fwEFE718ipYZU98wMEOeU)
+- [Blog](https://www.articul8.ai/blog)
+- [Privacy policy](https://www.articul8.ai/privacy)
+- [Status](https://status.articul8.ai/)
+
+## API Evangelist rating
+
+**Kin Score 11.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.1** — AI & Biometrics
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/articul830ee/](https://apis.io/providers/articul830ee/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Articul830ee: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/articul830ee/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
